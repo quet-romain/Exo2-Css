@@ -10,12 +10,15 @@ header {
 	color: #BEC0C1;
 	background-color: #fff;
 	border-bottom : 5px solid #E01045;
-	float: top
+	position: fixed;
+	top: 0;
+	width: 100%;
+	
 }
 
 .logo {
-	height:100px; 
-	width:100px;
+	height:90px; 
+	width:90px;
 }
 
 nav li {
@@ -29,7 +32,7 @@ nav li {
 	color: #fff;
 	text-align: center;
 	border: 1px solid;
-	margin-top: 100px;
+	margin-top: 300px;
 	margin-bottom: 140px;
 }	
 
@@ -44,4 +47,10 @@ nav li {
 .pc {
 	height: 5%;
 	width: 5%;
+	border-bottom: 5px solid;
+}
+
+.T {
+	background: #EDEDED;
+
 }
