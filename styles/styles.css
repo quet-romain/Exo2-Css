@@ -1,7 +1,7 @@
 body {
 	background: url("../img/bg.jpg") no-repeat;
-	background-size: cover;
 	margin: auto;
+	font-family: Arial;
 }
 
 /*----------header----------*/
@@ -9,7 +9,7 @@ header {
 	text-align: center;
 	color: #BEC0C1;
 	background-color: #fff;
-	border-bottom : 5px solid #E01045;
+	border-bottom : 8px solid #E01045;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -34,6 +34,8 @@ nav li {
 	border: 1px solid;
 	margin-top: 300px;
 	margin-bottom: 140px;
+	margin-left: 300px;
+	margin-right: 300px;
 }	
 
 /*-----------Text--------------*/
@@ -42,15 +44,43 @@ nav li {
 	background: #fff;
 	color: #E01045;
 	text-align: center;
+	padding-top: 5px;
 }
+
+/*--------Block de text------*/
 
 .pc {
-	height: 5%;
-	width: 5%;
-	border-bottom: 5px solid;
+	height: 30%;
+	width: 30%;
+	border-bottom: 5px solid #E01045;
+	padding-bottom:5%;
+	
 }
 
-.T {
+.block {
 	background: #EDEDED;
+	display: inline-block;
+	width: 16%;
+	margin: 40px;
+	padding: 25px;
+	color: #939B9A;
+}
 
+/*----------footer-----------*/
+
+footer {
+	background: #373232;
+	text-align: center;
+	color: #fff;
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.logoafpa {
+	width:70px;
+}
+
+.logomde {
+	width:110px;
 }
