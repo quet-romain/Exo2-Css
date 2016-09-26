@@ -1,3 +1,47 @@
-/* ****************************************
-              VOTRE CSS
-******************************************/
+body {
+	background: url("../img/bg.jpg") no-repeat;
+	background-size: cover;
+	margin: auto;
+}
+
+/*----------header----------*/
+header {
+	text-align: center;
+	color: #BEC0C1;
+	background-color: #fff;
+	border-bottom : 5px solid #E01045;
+	float: top
+}
+
+.logo {
+	height:100px; 
+	width:100px;
+}
+
+nav li {
+	display: inline;
+}
+
+
+/*---------Grand text-----------*/
+
+.GT{
+	color: #fff;
+	text-align: center;
+	border: 1px solid;
+	margin-top: 100px;
+	margin-bottom: 140px;
+}	
+
+/*-----------Text--------------*/
+
+.text {
+	background: #fff;
+	color: #E01045;
+	text-align: center;
+}
+
+.pc {
+	height: 5%;
+	width: 5%;
+}
