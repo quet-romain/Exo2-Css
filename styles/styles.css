@@ -50,8 +50,7 @@ nav li {
 /*--------Block de text------*/
 
 .pc {
-	height: 30%;
-	width: 30%;
+	width: 40%;
 	border-bottom: 5px solid #E01045;
 	padding-bottom:5%;
 	
@@ -64,6 +63,8 @@ nav li {
 	margin: 40px;
 	padding: 25px;
 	color: #939B9A;
+	height: 300px;
+	vertical-align: top;
 }
 
 /*----------footer-----------*/
